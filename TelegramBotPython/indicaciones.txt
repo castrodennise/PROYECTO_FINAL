@@ -1,0 +1,13 @@
+La aplicación corre con base de datos MariaDB/MySQL, por lo que hay que tenerlo instalado en el ordenador.
+
+1. Crear base de datos específicada en './database/database.sql'
+
+2. Cargar los datos con el script hecho en Python que está en la carpeta './database/script' llamado 'upload_data_to_db.py'
+
+3. Usar el entorno virtual, para usarlo nos situamos desde el terminal en './venv/Scripts' y posteriormente ejecutamos el comando 'activate'
+
+4. En caso de no querer usar el entorno virtual puede instalar los módulos específicados en './requeriments.txt'
+
+5. Cambiar los datos de usuario y password de la base de datos en './credentials.py', también puede cambiar el token de telegram si quiere usar la app en otro bot.
+
+6. Finalmente, ejecutar './app.py'.
